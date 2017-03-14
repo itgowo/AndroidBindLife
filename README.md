@@ -1,21 +1,25 @@
-#Android ÇáËÉÊµÏÖÉúÃüÖÜÆÚ°ó¶¨
+#Android è½»æ¾å®ç°ç”Ÿå‘½å‘¨æœŸç»‘å®š
 
-#####²»ÖªµÀ´ó¼ÒÓÃÃ»ÓÃ¹ıGlideÕâ¸ö¼ÓÔØÍ¼Æ¬µÄµÚÈı·½¿â£¬·Ç³£ºÃÓÃ£¬Glide¾ÍÊµÏÖÁË°ó¶¨ActivityºÍFragmentÉúÃüÖÜÆÚµÄ·½·¨£¬±¾ÆÚÎÄÕÂ½²µÄ¾ÍÊÇ¿´ÁËGlideÔ´Âëºó×Ü½áµÄ¾«»ªÄÚÈİ¡£
+#####ä¸çŸ¥é“å¤§å®¶ç”¨æ²¡ç”¨è¿‡Glideè¿™ä¸ªåŠ è½½å›¾ç‰‡çš„ç¬¬ä¸‰æ–¹åº“ï¼Œéå¸¸å¥½ç”¨ï¼ŒGlideå°±å®ç°äº†ç»‘å®šActivityå’ŒFragmentç”Ÿå‘½å‘¨æœŸçš„æ–¹æ³•ï¼Œæœ¬æœŸæ–‡ç« è®²çš„å°±æ˜¯çœ‹äº†Glideæºç åæ€»ç»“çš„ç²¾åå†…å®¹ã€‚
 
-###1.Ê×ÏÈ´ó¼Ò»áÎÊ£¬ÎªÊ²Ã´Òª°ó¶¨ÉúÃüÖÜÆÚ£¿
+Web:http://lujianchao.com 
+GitHubï¼šhttps://github.com/hnsugar 
+CSDN:http://blog.csdn.net/hnsugar
 
-####ÎÒ¾Ù¼¸¸öÀı×Ó£º
-Glide°ó¶¨ImageView£¬µ±Activity»òÕßfragmentÏú»ÙÁË£¬ÉÏÃæµÄImageviewËùÊ¹ÓÃµÄÍ¼Ïñ×ÊÔ´¾Í¿ÉÒÔÊÍ·ÅÁË£¬¿ÉÒÔËµÊÇ¡°ÊÖ¶¯¡±ÊÍ·ÅÁË£¬ËäÈ»ÊÇ»Øµ÷µÄ·½Ê½ÊµÏÖµÄ¡£
+###1.é¦–å…ˆå¤§å®¶ä¼šé—®ï¼Œä¸ºä»€ä¹ˆè¦ç»‘å®šç”Ÿå‘½å‘¨æœŸï¼Ÿ
 
-  »¹ÓĞ¾ÍÊÇ£¬ÍøÂçÇëÇó£¬ÎÒÃÇÔÚÒ»¸öÒ³Ãæ·¢ËÍÁËÍøÂçÇëÇó£¬µ«ÊÇÓÖºÜ¿ì¹Ø±ÕÁË£¬ÄÇÇëÇó½á¹û¿ÉÄÜ¾Í²»ĞèÒª´¦ÀíÁË£¬£¨Ö®ºóÎÒ»á·¢Ò»Æª×Ô¼ºĞ´Ò»¸öÓÃ·´ÉäÊµÏÖ»º´æµÄ¿ò¼Ü£¬Ö»ÓĞ²»µ½300ĞĞ´úÂë£©ÓĞÒ»Ğ©ÍøÂçÇëÇó¿ò¼ÜÊÇÖ§³ÖÇëÇóÈ¡ÏûµÄ£¬¿ÉÒÔcancelµô£¬ÕâÑù¾ÍÓÃµ½ÁËÕâ¸ö°ó¶¨£¬µ±È»ÁË£¬Ò²¿ÉÒÔÔÚ·µ»Ø½á¹ûºóÔÚÅĞ¶ÏÊÇ·ñ´¦Àí½á¹û£¬µ«ÊÇ¡£¡£¡£¡£activity²»ÊÇÁ¢¼´Ïú»ÙµÄ£¬»¹µÃÅĞ¶ÏÏÔÒş×´Ì¬£¬Âé·³°¡¡£Ê¹ÓÃ°ó¶¨ÉúÃüÖÜÆÚ·½·¨»¹¿ÉÒÔºÍÍøÂçÇëÇó¿ò¼Ü×éºÏÊ¹ÓÃĞ´Ò»¸ö¿ò¼Ü£¬ÊµÏÖ×Ô¶¯È¡ÏûÍøÂçÇëÇó£¬ÊÇ²»ÊÇ¸ü¸ß´óÉĞÄØ£¿
+####æˆ‘ä¸¾å‡ ä¸ªä¾‹å­ï¼š
+Glideç»‘å®šImageViewï¼Œå½“Activityæˆ–è€…fragmenté”€æ¯äº†ï¼Œä¸Šé¢çš„Imageviewæ‰€ä½¿ç”¨çš„å›¾åƒèµ„æºå°±å¯ä»¥é‡Šæ”¾äº†ï¼Œå¯ä»¥è¯´æ˜¯â€œæ‰‹åŠ¨â€é‡Šæ”¾äº†ï¼Œè™½ç„¶æ˜¯å›è°ƒçš„æ–¹å¼å®ç°çš„ã€‚
 
-×Ü½áÒ»ÏÂ£º°ó¶¨ÉúÃüÖÜÆÚÊÇÒ»¸öÓÅ»¯Èí¼şĞÔÄÜµÄÍ¾¾¶Ö®Ò»£¬ÈÃÏµÍ³ÉÙ´¦ÀíÒ»Ğ©Ã»ÒâÒåµÄÊÂÇé£¬¾ßÌåÔõÃ´ÓÃ»¹ĞèÒª¿ª·¢ÈËÔ±¶¯¶¯ÄÔ½î¡£
+  è¿˜æœ‰å°±æ˜¯ï¼Œç½‘ç»œè¯·æ±‚ï¼Œæˆ‘ä»¬åœ¨ä¸€ä¸ªé¡µé¢å‘é€äº†ç½‘ç»œè¯·æ±‚ï¼Œä½†æ˜¯åˆå¾ˆå¿«å…³é—­äº†ï¼Œé‚£è¯·æ±‚ç»“æœå¯èƒ½å°±ä¸éœ€è¦å¤„ç†äº†ï¼Œï¼ˆä¹‹åæˆ‘ä¼šå‘ä¸€ç¯‡è‡ªå·±å†™ä¸€ä¸ªç”¨åå°„å®ç°ç¼“å­˜çš„æ¡†æ¶ï¼Œåªæœ‰ä¸åˆ°300è¡Œä»£ç ï¼‰æœ‰ä¸€äº›ç½‘ç»œè¯·æ±‚æ¡†æ¶æ˜¯æ”¯æŒè¯·æ±‚å–æ¶ˆçš„ï¼Œå¯ä»¥cancelæ‰ï¼Œè¿™æ ·å°±ç”¨åˆ°äº†è¿™ä¸ªç»‘å®šï¼Œå½“ç„¶äº†ï¼Œä¹Ÿå¯ä»¥åœ¨è¿”å›ç»“æœååœ¨åˆ¤æ–­æ˜¯å¦å¤„ç†ç»“æœï¼Œä½†æ˜¯ã€‚ã€‚ã€‚ã€‚activityä¸æ˜¯ç«‹å³é”€æ¯çš„ï¼Œè¿˜å¾—åˆ¤æ–­æ˜¾éšçŠ¶æ€ï¼Œéº»çƒ¦å•Šã€‚ä½¿ç”¨ç»‘å®šç”Ÿå‘½å‘¨æœŸæ–¹æ³•è¿˜å¯ä»¥å’Œç½‘ç»œè¯·æ±‚æ¡†æ¶ç»„åˆä½¿ç”¨å†™ä¸€ä¸ªæ¡†æ¶ï¼Œå®ç°è‡ªåŠ¨å–æ¶ˆç½‘ç»œè¯·æ±‚ï¼Œæ˜¯ä¸æ˜¯æ›´é«˜å¤§å°šå‘¢ï¼Ÿ
 
-###2.Ô­Àí
-Ô­ÀíºÜ¼òµ¥£¬´ó¼ÒÖªµÀfragmentÔÚactivityÉÏµÄÉúÃüÖÜÆÚÊÇ¸úËæactivity±ä»¯µÄ£¬ËùÒÔ£¬ÎÒÃÇÔÚĞèÒª°ó¶¨µÄactivityÉÏ¼ÓÈëÒ»¸ö¿´²»¼ûµÄfragment¾Í¿ÉÒÔÁË£¬ÊÇ²»ÊÇºÜ¼òµ¥ (£Ş£­£Ş)V¡£
+æ€»ç»“ä¸€ä¸‹ï¼šç»‘å®šç”Ÿå‘½å‘¨æœŸæ˜¯ä¸€ä¸ªä¼˜åŒ–è½¯ä»¶æ€§èƒ½çš„é€”å¾„ä¹‹ä¸€ï¼Œè®©ç³»ç»Ÿå°‘å¤„ç†ä¸€äº›æ²¡æ„ä¹‰çš„äº‹æƒ…ï¼Œå…·ä½“æ€ä¹ˆç”¨è¿˜éœ€è¦å¼€å‘äººå‘˜åŠ¨åŠ¨è„‘ç­‹ã€‚
 
-###3.¿ªÊ¼Ğ´´úÂë
-####1.´´½¨Ò»¸ö½Ó¿Ú£¬¼àÌı»Øµ÷ÓÃ
+###2.åŸç†
+åŸç†å¾ˆç®€å•ï¼Œå¤§å®¶çŸ¥é“fragmentåœ¨activityä¸Šçš„ç”Ÿå‘½å‘¨æœŸæ˜¯è·Ÿéšactivityå˜åŒ–çš„ï¼Œæ‰€ä»¥ï¼Œæˆ‘ä»¬åœ¨éœ€è¦ç»‘å®šçš„activityä¸ŠåŠ å…¥ä¸€ä¸ªçœ‹ä¸è§çš„fragmentå°±å¯ä»¥äº†ï¼Œæ˜¯ä¸æ˜¯å¾ˆç®€å• (ï¼¾ï¼ï¼¾)Vã€‚
+
+###3.å¼€å§‹å†™ä»£ç 
+####1.åˆ›å»ºä¸€ä¸ªæ¥å£ï¼Œç›‘å¬å›è°ƒç”¨
 	public interface onQK_ILifeListener {
 	        public void onStart ();
 	        public void onDestroy ();
@@ -25,12 +29,12 @@ Glide°ó¶¨ImageView£¬µ±Activity»òÕßfragmentÏú»ÙÁË£¬ÉÏÃæµÄImageviewËùÊ¹ÓÃµÄÍ¼Ïñ×ÊÔ
 	        public void onResume ();
 	
 	        /**
-	         * Ê¹ÓÃÇé¿öÓĞÏŞ
+	         * ä½¿ç”¨æƒ…å†µæœ‰é™
 	         * @param isHidden
 	         */
 	        public void onFragmentHiddenChanged (boolean isHidden);
 	}
-####2.´´½¨Á½¸öFragment£¨Ò»Ä£Ò»Ñù£¬ÆäÖĞÒ»¸öÊÇ¼Ì³ĞV4°üµÄ£©
+####2.åˆ›å»ºä¸¤ä¸ªFragmentï¼ˆä¸€æ¨¡ä¸€æ ·ï¼Œå…¶ä¸­ä¸€ä¸ªæ˜¯ç»§æ‰¿V4åŒ…çš„ï¼‰
 
 	public class QK_ListenerFragment extends Fragment {
 	    private onQK_ILifeListener mlistener;
@@ -102,32 +106,32 @@ Glide°ó¶¨ImageView£¬µ±Activity»òÕßfragmentÏú»ÙÁË£¬ÉÏÃæµÄImageviewËùÊ¹ÓÃµÄÍ¼Ïñ×ÊÔ
 	
 	}
 
-ÁíÒ»¸öandroid.support.v4.app.Fragment
+å¦ä¸€ä¸ªandroid.support.v4.app.Fragment
 
 	public class QK_ListenerFragmentV4 extends android.support.v4.app.Fragment {
-	    //ºÍÉÏÃæµÄÒ»Ä£Ò»Ñù¡£¡£¡£¡£d=====(£ş¨Œ£ş*)b
+	    //å’Œä¸Šé¢çš„ä¸€æ¨¡ä¸€æ ·ã€‚ã€‚ã€‚ã€‚d=====(ï¿£â–½ï¿£*)b
 	}
 
 
-####3.°ó¶¨ÉúÃüÖÜÆÚ£¬ÒÔActivityÎªÀı
+####3.ç»‘å®šç”Ÿå‘½å‘¨æœŸï¼Œä»¥Activityä¸ºä¾‹
 	/**
-     * °ó¶¨ÏµÍ³Ä¬ÈÏActivity
+     * ç»‘å®šç³»ç»Ÿé»˜è®¤Activity
      *
      * @param mContext
      * @param mListener
      */
     public static void bindLife (final Activity mContext, onQK_ILifeListener mListener) {
-        //ÅĞ¶ÏÊÇ²»ÊÇÔ­ÉúActivity£¬Èç¹û²»ÊÇ¡£¡£¡£¡£ÔõÃ´¿ÉÄÜ£¬ÑÏ½÷°¡b(£ş¨Œ£ş)d
+        //åˆ¤æ–­æ˜¯ä¸æ˜¯åŸç”ŸActivityï¼Œå¦‚æœä¸æ˜¯ã€‚ã€‚ã€‚ã€‚æ€ä¹ˆå¯èƒ½ï¼Œä¸¥è°¨å•Šb(ï¿£â–½ï¿£)d
         if (mContext instanceof Activity) {
             QK_ListenerFragment listenerFragment = new QK_ListenerFragment ();
-            //ÉèÖÃ¼àÌı
+            //è®¾ç½®ç›‘å¬
             listenerFragment.setLifeListener (mListener);
             FragmentManager manager = mContext.getFragmentManager ();
-            //¿ªÆôÊÂÎñ
+            //å¼€å¯äº‹åŠ¡
             manager.beginTransaction ().add (listenerFragment, QK_ListenerFragment.ListenerFragmentTag).commitAllowingStateLoss ();
         }
     }
-ºÃÁË£¬Ö±½Óµ÷ÓÃ¾ÍĞĞÁË£¬
+å¥½äº†ï¼Œç›´æ¥è°ƒç”¨å°±è¡Œäº†ï¼Œ
 	 QKManager.bindLife (this, new onQK_LifeListener () {
 	
 	            @Override
@@ -166,9 +170,9 @@ Glide°ó¶¨ImageView£¬µ±Activity»òÕßfragmentÏú»ÙÁË£¬ÉÏÃæµÄImageviewËùÊ¹ÓÃµÄÍ¼Ïñ×ÊÔ
 	                mTextView.append ("\r\n" + "DemoBindLifeActivity.onFragmentHiddenChanged");
 	            }
 	        });
-####4.FragmentActivity·½Ê½
+####4.FragmentActivityæ–¹å¼
 	 /**
-	     * °ó¶¨V4°üÏÂµÄFragmentActivity
+	     * ç»‘å®šV4åŒ…ä¸‹çš„FragmentActivity
 	     *
 	     * @param mContext
 	     * @param mListener
@@ -181,9 +185,9 @@ Glide°ó¶¨ImageView£¬µ±Activity»òÕßfragmentÏú»ÙÁË£¬ÉÏÃæµÄImageviewËùÊ¹ÓÃµÄÍ¼Ïñ×ÊÔ
 	            manager.beginTransaction ().add (listenerFragment, QK_ListenerFragmentV4.ListenerFragmentTag).commitAllowingStateLoss ();
 	        }
 	    }
-####5.Ä¬ÈÏFragment°ó¶¨,Ê¹ÓÃµÄÊÇFragmentManager £¬¼Ç×¡
+####5.é»˜è®¤Fragmentç»‘å®š,ä½¿ç”¨çš„æ˜¯FragmentManager ï¼Œè®°ä½
 	    /**
-	     * °ó¶¨ÏµÍ³Ä¬ÈÏFragment
+	     * ç»‘å®šç³»ç»Ÿé»˜è®¤Fragment
 	     *
 	     * @param mContext
 	     * @param mListener
@@ -196,9 +200,9 @@ Glide°ó¶¨ImageView£¬µ±Activity»òÕßfragmentÏú»ÙÁË£¬ÉÏÃæµÄImageviewËùÊ¹ÓÃµÄÍ¼Ïñ×ÊÔ
 	            manager.beginTransaction ().add (listenerFragment, QK_ListenerFragment.ListenerFragmentTag).commitAllowingStateLoss ();
 	        }
 	    }
-####6.°ó¶¨V4°üÏÂµÄFragment ,  android.support.v4.app.Fragment
+####6.ç»‘å®šV4åŒ…ä¸‹çš„Fragment ,  android.support.v4.app.Fragment
 	    /**
-	     * °ó¶¨V4°üÏÂµÄFragment
+	     * ç»‘å®šV4åŒ…ä¸‹çš„Fragment
 	     *
 	     * @param mContext
 	     * @param mListener
@@ -212,7 +216,7 @@ Glide°ó¶¨ImageView£¬µ±Activity»òÕßfragmentÏú»ÙÁË£¬ÉÏÃæµÄImageviewËùÊ¹ÓÃµÄÍ¼Ïñ×ÊÔ
 	        }
 	    }
 
-####7.×ÛºÏÒ»ÏÂ£¬ÓÃÒ»¸ö·½·¨
+####7.ç»¼åˆä¸€ä¸‹ï¼Œç”¨ä¸€ä¸ªæ–¹æ³•
 
 	  public static void bindLife (Object mContext, onQK_ILifeListener mListener) {
 	        if (mContext instanceof Activity) {
@@ -237,13 +241,13 @@ Glide°ó¶¨ImageView£¬µ±Activity»òÕßfragmentÏú»ÙÁË£¬ÉÏÃæµÄImageviewËùÊ¹ÓÃµÄÍ¼Ïñ×ÊÔ
 	            manager.beginTransaction ().add (listenerFragment, QK_ListenerFragmentV4.ListenerFragmentTag).commitAllowingStateLoss ();
 	        }
 	    }
-####8.ÆäËûÎÊÌâ
-ÏÖÔÚÕâ¸öÊÇ¼òµ¥µÄÊµÏÖ°ó¶¨£¬Èç¹ûÒ»¸öÒ³Ãæ°ó¶¨ºÃ¶à´ÎÊÇ²»ÊÇ¾ÍÔì³ÉÁËÀË·ÑÄØ£¬´ğ°¸ÊÇ¿Ï¶¨µÄ£¬Èç¹ûÒ»¸öActivity»òÕßfragmentÖ»±£ÁôÒ»¸öÌí¼ÓµÄfragment£¬ĞèÒª×öÅĞ¶Ï»¹Òª´¦ÀíÒ»¶ÑÎÊÌâ£¬Áô¸ø´ó¼ÒÁË£¬Ä¿Ç°ÎÒµÄ½â¾ö·½°¸ÊÇÀûÓÃtag£¬¾²Ì¬¼¯ºÏºÍfindFragmentByTagµÈ¡£¡£¡£À´±£Ö¤Ò»¸öActivity»òÕßfragmentÖ»²åÈëÒ»¸öÎÒÃÇµÄfragment,¼àÌıÊÇ·ÅÔÚÒ»¸ö¼¯ºÏÀï£¬Ã¿´Î´¥·¢¾Í±éÀúÒ»´ÎÖ´ĞĞ»Øµ÷£¬ºÃÁË£¬Ë¼Â·¾ÍÊÇÕâÑùÁË£¬´ó¼Ò×Ô¼ºÍØÕ¹Ë¼Â·°É¡£(o©b¨Œ©b)o¡î[BINGO!]
+####8.å…¶ä»–é—®é¢˜
+ç°åœ¨è¿™ä¸ªæ˜¯ç®€å•çš„å®ç°ç»‘å®šï¼Œå¦‚æœä¸€ä¸ªé¡µé¢ç»‘å®šå¥½å¤šæ¬¡æ˜¯ä¸æ˜¯å°±é€ æˆäº†æµªè´¹å‘¢ï¼Œç­”æ¡ˆæ˜¯è‚¯å®šçš„ï¼Œå¦‚æœä¸€ä¸ªActivityæˆ–è€…fragmentåªä¿ç•™ä¸€ä¸ªæ·»åŠ çš„fragmentï¼Œéœ€è¦åšåˆ¤æ–­è¿˜è¦å¤„ç†ä¸€å †é—®é¢˜ï¼Œç•™ç»™å¤§å®¶äº†ï¼Œç›®å‰æˆ‘çš„è§£å†³æ–¹æ¡ˆæ˜¯åˆ©ç”¨tagï¼Œé™æ€é›†åˆå’ŒfindFragmentByTagç­‰ã€‚ã€‚ã€‚æ¥ä¿è¯ä¸€ä¸ªActivityæˆ–è€…fragmentåªæ’å…¥ä¸€ä¸ªæˆ‘ä»¬çš„fragment,ç›‘å¬æ˜¯æ”¾åœ¨ä¸€ä¸ªé›†åˆé‡Œï¼Œæ¯æ¬¡è§¦å‘å°±éå†ä¸€æ¬¡æ‰§è¡Œå›è°ƒï¼Œå¥½äº†ï¼Œæ€è·¯å°±æ˜¯è¿™æ ·äº†ï¼Œå¤§å®¶è‡ªå·±æ‹“å±•æ€è·¯å§ã€‚(oã‚œâ–½ã‚œ)oâ˜†[BINGO!]
 
 
 
-####9.Ğ¡Î²°Í
-¸öÈËÔÚµ¹ÌÚ×Ô¼ºµÄÍøÕ¾£ºhttp://lujianchao.com        ·ç¸ñ»òÕßÊı¾İÊ²Ã´µÄÅ¼¶û³öÎÊÌâ£¬ÄÇÊÇÎÒÔÚµ÷ÊÔ¡£¡£¡£¡£
-GitHub£ºhttps://github.com/hnsugar    
+####9.å°å°¾å·´
+ä¸ªäººåœ¨å€’è…¾è‡ªå·±çš„ç½‘ç«™ï¼šhttp://lujianchao.com        é£æ ¼æˆ–è€…æ•°æ®ä»€ä¹ˆçš„å¶å°”å‡ºé—®é¢˜ï¼Œé‚£æ˜¯æˆ‘åœ¨è°ƒè¯•ã€‚ã€‚ã€‚ã€‚
+GitHubï¼šhttps://github.com/hnsugar    
 CSDN:http://blog.csdn.net/hnsugar
-ÏîÄ¿µØÖ·£ºÎÒ×Ô¼ºµÄGit·şÎñÆ÷  http://lujianchao.com:8081/gitblit/summary/AndroidTips!DemoBindLife.git
+é¡¹ç›®åœ°å€ï¼šæˆ‘è‡ªå·±çš„GitæœåŠ¡å™¨  http://lujianchao.com:8081/gitblit/summary/AndroidTips!DemoBindLife.git
