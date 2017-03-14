@@ -3,7 +3,9 @@
 #####不知道大家用没用过Glide这个加载图片的第三方库，非常好用，Glide就实现了绑定Activity和Fragment生命周期的方法，本期文章讲的就是看了Glide源码后总结的精华内容。
 
 Web:http://lujianchao.com 
+
 GitHub：https://github.com/hnsugar 
+
 CSDN:http://blog.csdn.net/hnsugar
 
 ###1.首先大家会问，为什么要绑定生命周期？
