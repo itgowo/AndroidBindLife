@@ -24,6 +24,7 @@ Glide绑定ImageView，当Activity或者fragment销毁了，上面的Imageview�
 
 ###3.开始写代码
 ####1.创建一个接口，监听回调用
+	
 	public interface onQK_ILifeListener {
 	        public void onStart ();
 	        public void onDestroy ();
